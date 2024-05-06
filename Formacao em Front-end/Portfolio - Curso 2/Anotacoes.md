@@ -31,3 +31,12 @@ https://m3.material.io/styles/color/system/overview
 20- https://developer.mozilla.org/en-US/docs/Web/CSS
 21- https://color.adobe.com/create/color-wheel
 22- https://www.hipsters.tech/css-cansei-de-ser-simples-hipsters-09/
+
+# Guide to flexbox
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+# Ver a seguir
+
+https://cursos.alura.com.br/course/css-flexbox-layouts-responsivos
+https://cursos.alura.com.br/search?query=flexbox
