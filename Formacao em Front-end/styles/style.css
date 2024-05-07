@@ -1,15 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100..900&display=swap');
+
+:root {
+  --cor-primaria: #000000;
+  --cor-secundaria: #f6f6f6;
+  --cor-terciaria: #22d4fd;
+  --cor-hover: #272727;
+  --font-primaria: 'Krona One', sans-serif;
+  --font-secundaria: 'Montserrat', sans-serif;
+}
+
 body {
   box-sizing: border-box;
-  background-color: #000000;
-  color: #f6f6f6;
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
 }
 
 .cabecalho__menu__link {
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--font-primaria);
   font-weight: 600;
   font-size: 24px;
-  color: #22d4fd;
+  color: var(--cor-terciaria);
   text-decoration: none;
 }
 
@@ -38,16 +48,16 @@ body {
 
 .apresentacao__conteudo__titulo {
   font-size: 36px;
-  font-family: 'Krona One', sans-serif;
+  font-family: var(--font-primaria);
 }
 
 .titulo-destaque {
-  color: #22d4fd;
+  color: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo__texto {
   font-size: 24px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--font-secundaria);
   font-weight: 400;
 }
 
@@ -60,7 +70,7 @@ body {
 }
 
 .apresentacao__links__subtitulo {
-  font-family: 'Krona One', sans-serif;
+  font-family: var(--font-primaria);
   font-weight: 400;
   font-size: 24px;
 }
@@ -69,7 +79,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 16px;
-  border: 2px solid #22d4fd;
+  border: 2px solid var(--cor-terciaria);
   width: 378px;
   text-align: center;
   border-radius: 8px;
@@ -78,19 +88,19 @@ body {
   padding-block: 21.5px;
   text-decoration: none;
   color: #f6f6f6;
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--font-secundaria);
 }
 
 .apresentacao__links_link:hover {
-  background-color: #272727;
+  background-color: var(--cor-hover);
 }
 
 .rodape {
   padding: 24px;
-  color: #000000;
-  background-color: #22d4fd;
+  color: var(--cor-primaria);
+  background-color: var(--cor-terciaria);
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: var(--font-secundaria);
   font-size: 24px;
   font-weight: 400;
 }
