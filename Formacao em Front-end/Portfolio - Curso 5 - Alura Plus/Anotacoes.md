@@ -22,7 +22,7 @@ Existem diferentes propósitos para uso de imagens, portanto existem formas dife
 Para arquivos que possuem semantica, usamos a inserção através do HTML.
 Para arquivos que não possuem, então utilizamos o css como forma de inserção.
 
-## Primeira Aula
+## Aula 1
 O que fizemos:
 Criando a estrutura HTML Alura Plus - !<enter>
 Conectando o CSS e preparando o ambiente de desenvolvimento - link:stylesheet
@@ -30,3 +30,5 @@ Definindo cores com variáveis CSS - --cor-xxxx: #CODCOR;
 Aplicando estilo global com seletor universal - * {}
 Inserção de imagem com tag img - img:s
 Estilizando uma imagem de fundo com CSS - background-image
+
+## Aula 2
