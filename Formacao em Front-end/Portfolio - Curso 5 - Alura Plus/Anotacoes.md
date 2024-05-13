@@ -50,7 +50,6 @@ Aplicar a fonte importada nos elementos através do CSS e outros atributos relac
 Remover a decoração do texto de links através do text-decoration.
 
 ## Aula 3
-
 Afastar elementos dos cantos da tela e de outros elementos;
 A diferença entre margin e padding;
 Diversas maneiras de determinar os valores e as direções das margens dentro da propriedade margin;
@@ -64,3 +63,11 @@ Flex-containers, flex-itens, flex-direction;
 A tag footer;
 Colocar o conhecimento em prática;
 Pseudo-classes no CSS: hover e active.
+
+## Aula 5
+Criar uma conta no Github;
+Construir um repositório com o código do curso;
+Escrever commits;
+Fazer deploy no Github Pages e Vercel;
+Editar código no VSCode Web;
+Enviar alterações para o repositório já existente.
