@@ -5,3 +5,22 @@ hr {
   background-color: var(--branco);
   padding: 1em;
 }
+
+@media screen and (min-width: 1024px) {
+  .rodapé {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .lista-rodapé__item {
+    display: flex;
+    align-items: center;
+    margin-left: 0.6em;
+  }
+
+  .lista-rodapé__link {
+    color: var(--cinza);
+    text-decoration: none;
+    margin-left: 0.6em;
+  }
+}
